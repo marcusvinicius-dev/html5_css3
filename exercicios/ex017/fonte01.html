@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            text-align: justify;
+            font-family: 'arial';
+
+            /*
+                Medidas absolutas
+                cm, mm, in(polegadas), px, pt, pc(paica)
+
+                Medidas Relativas
+                em(m.r. ao tamanho real da fonte), ex(r. a altura x de uma fonte), rem, vw, vh, %
+
+                16px geralmente = 1em
+            */
+
+            font-size: 16px;
+            font-weight:  normal;
+            font-style: italic;
+            text-decoration: underline;
+            /*
+                tipos de peso: lighter, normal, bold, bolder
+                    tipos de peso com variação numérica (100, 200, 300,...900)
+            */
+        }
+        h1{
+            
+            /*
+            font-family: 'arial';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand  font
+            
+            sequencia:
+                font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'arial';
+        }
+            
+        h2{
+            font: bold 2em 'arial'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta praesentium sunt tempore explicabo provident deserunt. Modi culpa fugiat tempore quisquam perspiciatis eaque nostrum magni magnam, molestias vitae! Blanditiis, fuga nobis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio iste aspernatur cumque dignissimos fuga earum provident! Cupiditate officia iusto maxime, officiis ratione perspiciatis dolores possimus veniam accusamus, fuga doloremque ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem voluptates distinctio iure ipsa quam nihil sit, id soluta veniam praesentium velit perferendis accusamus deserunt dignissimos alias enim, mollitia unde?
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia culpa dolore asperiores velit repellendus quae! Doloribus nobis in vero, tempora pariatur sunt cum maxime est officiis obcaecati vel at.
+        </p>
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, quas. Deserunt dolores vitae non placeat dolorem beatae, qui, quam dolore ipsum doloribus totam temporibus blanditiis recusandae, quas dignissimos neque! Veritatis.
+    </p>
+</body>
+</html>
