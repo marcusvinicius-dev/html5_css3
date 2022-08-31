@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
+            /*
             background-color: blue;
             background-image: url('../ex022/imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            background: black url('../ex022/imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
+
+            /*
+                shorthand do background 
+                    color > image > position > repeat > [size] > attachment
+
+                mesmo estando na documentacao o uso do shorthand para background caso use o size a imagem nao carrega.
+
+            */
+
 
             /*
                 height: 100vh;
