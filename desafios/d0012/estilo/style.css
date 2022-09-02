@@ -32,7 +32,7 @@ header > h1{
     --text-transform: uppercase;
     font-variant: small-caps; /**/
     font-family: var(--fonte2);
-    font-size: 5em;
+    font-size: 10vw;
 }
 
 header > p{
@@ -53,8 +53,10 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-family: var(--fonte3);
+    font-size: 3vw;
     line-height: 2em;
     padding-left: 30px;
+    
 
 }
 
@@ -68,7 +70,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.363);
     color: white;
 }
