@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #D3D3D3;
+    --cor02: #A1A1A1;
+    --cor03: #545454;
+    --cor04: #543B3B;
+    --cor05: #DB9999; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor01)
+}
+
+.cabecalho{
+    width: 100vw;
+    height: 100px;
+    background-color: var(--cor03);
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+
+.cab-conteudo{
+    width: 50vw;
+    height: 60px;
+    background-color: var(--cor02);
+    margin: auto;
+    
+}
